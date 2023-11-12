@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('fonts/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('fonts/Lato-Bold.ttf');
+}
+
+.root {
+    -fx-background-color: #d3e1ee;
+    -fx-font-family: 'Lato';
+}
+.button {
+    -fx-background-color: rgb(180, 231, 255);
+    -fx-text-fill: #000000;
+    -fx-background-radius: 7px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 3,0,2,3);
+}
+.button:disabled {
+    -fx-background-color: #d8dcc9;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 7px;
+    -fx-opacity: 1;
+}
+.button:hover {
+    -fx-background-color: #86a4d1;
+    -fx-text-fill: #ffffff;
+    -fx-scale-x: 1.035;
+    -fx-scale-y: 1.035
+}
+.button:pressed {
+    -fx-text-fill: #b6bda7;
+}
+.outlined.label .text {
+    -fx-font-family: 'Lato-Bold';
+    -fx-stroke: #000000;
+    -fx-stroke-width: 0.25px;
+}
+.bordered.label {
+    -fx-border-width: 0.5;
+    -fx-border-color: #000000;
+}
+#treasury_title {
+    -fx-font-family: 'Lato-Bold';
+    -fx-font-size: 25;
+}
+#nations_title {
+    -fx-font-family: 'Lato-Bold';
+    -fx-font-size: 15;
+}
+#treasury_amount {
+    -fx-font-family: 'Lato-Bold';
+    -fx-font-size: 17;
+}
+#play_button_clicked {
+    -fx-background-color: #5a86f3;
+    -fx-text-fill: rgb(255, 224, 224);
+    -fx-background-radius: 7px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 3,0,2,3);
+}
+#dialog_content_header {
+    -fx-font-size: 25;
+}
+#dialog_content {
+    -fx-font_size: 21;
+}
+#dialog_ok_button {
+    -fx-background-color: #5a86f3;
+    -fx-text-fill: white;
+}
+#dialog_ok_button:hover {
+    -fx-background-color: #4c72d0;
+    -fx-text-fill: white;
+}
+#sidechart {
+    -fx-background-color: #daa556;
+}
+#sidechart_inside {
+    -fx-fill: #ffd08a;
+}
+#mapPane{
+    -fx-background-color: #ff0000;
+    -fx-border-color: #000000;
+    -fx-border-width: 5;
+}
+#nation_image {
+    -fx-border-color: #000000;
+    -fx-border-width: 6;
+}
+#rondel_center {
+    -fx-background-color: #bdbdbd;
+    -fx-border-color: #000000;
+    -fx-border-width: 5;
+}
+#player_label {
+    -fx-font-family: 'Lato-Bold';
+    -fx-font-size: 19;
+}
+#sidechart_player {
+    -fx-background-color: #ffd08a;
+}
+#bond_object {
+    -fx-background-color: #5a86f3;
+}
